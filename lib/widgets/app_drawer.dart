@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import '../screens/orders_screen.dart';
 import '../screens/special_zone.dart';
 import '../screens/user_products_screen.dart';
+import '../providers/auth.dart';
 
 class AppDrawer extends StatelessWidget {
   @override
@@ -95,6 +97,20 @@ class AppDrawer extends StatelessWidget {
             leading: Icon(Icons.library_add_check),
             title: Text('Legal'),
             onTap: () {},
+          ),
+          Divider(
+            thickness: 1.5,
+            indent: 20,
+            endIndent: 20,
+          ),
+          ListTile(
+            leading: Icon(Icons.exit_to_app_sharp),
+            title: Text('Log Out'),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).pushReplacementNamed('/');
+              Provider.of<Auth>(context, listen: false).logout();
+            },
           ),
         ],
       ),

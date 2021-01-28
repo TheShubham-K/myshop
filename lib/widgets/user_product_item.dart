@@ -9,7 +9,6 @@ class UserProductItem extends StatelessWidget {
   final String imageUrl;
 
   UserProductItem(this.title, this.imageUrl, this.id);
-
   @override
   Widget build(BuildContext context) {
     final scaffold = Scaffold.of(context);

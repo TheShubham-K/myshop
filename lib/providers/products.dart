@@ -24,8 +24,11 @@ class Products with ChangeNotifier {
   }
 
   Future<void> fetchAndSetProducts([bool filterByUser = false]) async {
+
+    final filterString = filterByUser ? 'orderBy="creatorId"&equalTo="$userId"' : '';
+
     var url =
-        'https://shubham-nsnbtx.firebaseio.com/products.json?auth=$authToken&orderBy="creatorId"&equalTo="$userId"';
+        'https://shubham-nsnbtx.firebaseio.com/products.json?auth=$authToken&$filterString';
     try {
       final response = await http.get(url);
       final extractData = json.decode(response.body) as Map<String, dynamic>;
