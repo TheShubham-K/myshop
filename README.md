@@ -57,3 +57,18 @@ A Commercial App for local shop owners to bring its shop items online and provid
 - there are solutions such as small growing businesses can merge with big tech eCommerce companies like Amazon, FlipKart, etc. but they don't give complete ownership for their products, they charge them unfairly.
 
 - my solution is to charge the shop owners with the services which my product provides them to get connect with cutomers
+
+
+
+  <img src="screenshots\img1.png" alt="ss 1" width="250px" height="550px">
+  <img src="screenshots\img2.png" alt="ss 2"  width="250px" height="550px">
+  <img src="screenshots\img3.png" alt="ss 3" width="250px" height="550px">
+  <img src="screenshots\img4.png" alt="ss 4" width="250px" height="550px">
+  <img src="screenshots\img5.png" alt="ss 5" width="250px" height="550px">
+  <img src="screenshots\img6.png" alt="ss 6" width="250px" height="550px">
+  <img src="screenshots\img7.png" alt="ss 7" width="250px" height="550px">
+  <img src="screenshots\img8.png" alt="ss 8" width="250px" height="550px">
+  <img src="screenshots\img9.png" alt="ss 9" width="250px" height="550px">
+  <img src="screenshots\img10.png" alt="ss 9" width="250px" height="550px">
+
+  [![Watch the video](screenshots\img1.png)](https://youtu.be/BDOfHjZVen4)

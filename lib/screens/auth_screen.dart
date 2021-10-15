@@ -111,7 +111,7 @@ class _AuthCardState extends State<AuthCard> {
         title: Text('An Error occurred!'),
         content: Text(message),
         actions: <Widget>[
-          FlatButton(
+          TextButton(
             child: Text('Okay'),
             onPressed: () {
               Navigator.of(ctx).pop();
@@ -207,8 +207,9 @@ class _AuthCardState extends State<AuthCard> {
                   keyboardType: TextInputType.emailAddress,
                   validator: (value) {
                     if (value.isEmpty || !value.contains('@')) {
-                      return 'Invalid email!';
+                      return "Invalid email!";
                     }
+                    return "";
                   },
                   onSaved: (value) {
                     _authData['email'] = value;
@@ -222,6 +223,7 @@ class _AuthCardState extends State<AuthCard> {
                     if (value.isEmpty || value.length < 5) {
                       return 'Password is too short!';
                     }
+                    return '';
                   },
                   onSaved: (value) {
                     _authData['password'] = value;
@@ -237,6 +239,7 @@ class _AuthCardState extends State<AuthCard> {
                             if (value != _passwordController.text) {
                               return 'Passwords do not match!';
                             }
+                            return '';
                           }
                         : null,
                   ),
