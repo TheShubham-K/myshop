@@ -71,4 +71,4 @@ A Commercial App for local shop owners to bring its shop items online and provid
   <img src="screenshots\img9.png" alt="ss 9" width="250px" height="550px">
   <img src="screenshots\img10.png" alt="ss 9" width="250px" height="550px">
 
-  [![Watch the video](./screenshots\img1.png)](https://youtu.be/BDOfHjZVen4)
+  [![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/BDOfHjZVen4)
